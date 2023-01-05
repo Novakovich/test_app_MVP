@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div style="position: relative; padding: 10px; ">
+        <div class="card" style="width: 26rem;">
+            <div class="card-header">
+                <h3>Create User</h3>
+            </div>
+            <div class="card-body">
+                <form action="/create" method="post">
+                    <div class="registation">
+                        <label>Name
+                            <input type="text" name="name" class="form-control">
+                        </label>
+                        <div id="name" class="form-text">Enter your name.</div>
+                    </div>
+                    <p>
+                    </p>
+                        <label>Password
+                            <input type="text" name="password" class="form-control">
+                        </label>
+                    <div id="password" class="form-text">Enter your password.</div>
+                     <p>
+                    </p>
+                        <label>Email
+                            <input type="text" name="email" class="form-control">
+                        </label>
+                    <div id="amount" class="form-text">Enter your e-mail.</div>
+                     <p>
+                    </p>
+                    <button type="submit" class="btn btn-primary" style="width: 24rem;">Create</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
